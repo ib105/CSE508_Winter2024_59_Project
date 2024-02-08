@@ -5,13 +5,16 @@ Report
 Ishwar Babu - 2021532
 
 1 Introduction
+
 This report discusses three Python scripts designed for text preprocessing, creation and
 usage of an inverted index for boolean queries, and implementation of a positional in-
 dex for phrase queries within a dataset of text files. These scripts utilize various data
 structures and libraries to efficiently process and query textual data.
 
 2 Data Preprocessing
+
 2.1 Overview
+
 The data preprocessing script is responsible for preparing text data for further analysis or
 processing. This involves converting text to lowercase, removing HTML tags, tokenizing,
 removing stopwords and punctuation, and eliminating blank space tokens.
@@ -37,13 +40,16 @@ case the preprocessing results.
 
 
 2.3 Structures Used
+
 • The script uses sets for stopwords to optimize the search and removal process.
 • Lists are used to store tokens and file names for iterative processing.
 3 Unigram Inverted Index and Boolean Queries
 3.1 Overview
+
 This script creates an inverted index from the preprocessed text files, allowing efficient
 querying of the dataset with boolean operations (AND, OR, AND NOT, OR NOT).
 3.2 Functionalities
+
 • Inverted Index Creation: Builds an inverted index where each word points to a
 set of documents containing that word.
 • Index Persistence: Saves and loads the inverted index using Python’s pickle
@@ -59,12 +65,14 @@ entry in the index.
 tions.
 
 4 Positional Index and Phrase Queries
+
 4.1 Overview
 
 Implements a positional index for processing phrase queries. This index tracks the posi-
 tions of each word within documents, enabling precise phrase query matching.
 
 4.2 Functionalities
+
 • Positional Index Creation: Constructs a positional index where each word is
 associated with a dictionary. This dictionary maps documents to lists of positions
 where the word occurs.
@@ -84,6 +92,7 @@ positions.
 tion of consecutive word sequences.
 
 5 Conclusion
+
 The presented scripts offer a comprehensive approach to preprocessing text data, querying
 datasets with boolean logic, and executing precise phrase searches using a positional
 index. Each component plays a crucial role in text analysis and information retrieval
