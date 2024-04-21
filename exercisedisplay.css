@@ -1,0 +1,55 @@
+.exercise-display {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .exercise-display ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .exercise-display li {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .exercise-display h3 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .exercise-display p {
+    color: #666;
+  }
+  
+  .exercise-display ol {
+    padding-left: 20px;
+  }
+  
+  .exercise-display ol li {
+    margin-bottom: 10px;
+  }
+  
+  .exercise-display video {
+    width: 100%;
+    max-width: 400px; /* You can adjust the max-width as per your layout requirements */
+    height: auto;
+    margin-top: 10px;
+  }
+  
+  .no-exercises {
+    text-align: center;
+    padding: 50px 20px;
+    color: #999;
+  }
+  
+  /* Adjust this media query as needed */
+  @media (max-width: 768px) {
+    .exercise-display video {
+      width: 100%;
+    }
+  }
+  

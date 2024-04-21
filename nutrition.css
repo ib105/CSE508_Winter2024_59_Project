@@ -1,0 +1,122 @@
+.nutrition-container {
+    color: #fff;
+    padding: 40px 20px;
+    background-color: #1c1c1e;
+    min-height: 100vh;
+    font-family: 'Helvetica Neue', sans-serif;
+    
+  }
+  
+  .section {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .section h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    border-color: yellowgreen;
+  }
+  
+  .toggle-button {
+    background-color: #a5a5a5;
+    border: 2px solid yellowgreen; /* Set the border width and color */
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+  
+  .toggle-button img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-button:hover,
+  .toggle-button.active {
+    background-color: #9db4ff;
+    color : #000;
+    border-color: #fff;
+  }
+  
+  .toggle-button:not(.active):hover {
+    border-color: wheat ;
+    background-color: #2d2d2d;
+    transform: scale(1.1);
+  }
+  
+  .macro-inputs {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .macro-inputs input {
+    padding: 20px;
+    width: 250px;
+    border-radius: 8px;
+    border: 2px solid #3b3b3d;
+    font-size: 1em;
+    color: #fff;
+    background-color: #2d2d2d;
+  }
+  
+  .continue-button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .continue-button {
+    background-color: #007aff;
+    border: none;
+    color: white;
+    padding: 20px 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 1.3em;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .continue-button:hover {
+    background-color: #023269;
+    color: gray;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .toggle-button {
+      padding: 15px;
+      width: auto;
+    }
+  
+    .macro-inputs input {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .macro-inputs input {
+      width: 100%;
+    }
+  }
+  
