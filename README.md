@@ -14,4 +14,4 @@ Steps to run it locally
 
 4. Run the application.
 
-`cd test`, Once in the test folder run the folder using `npm start` 
+`cd Test2`, Once in the test folder run the folder using `npm start` 
