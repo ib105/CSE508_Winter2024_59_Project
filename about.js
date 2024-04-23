@@ -8,8 +8,8 @@ function About() {
       <div className="about-main">
         <img src={gymlady} alt="Fitness Lady" className="about-image"/>
         <div className="about-text">
-          <h1>WHY USE RACE-SPECIFIC ATTRIBUTES?</h1>
-          <p>All races are not created equal. From terrain, to season, to road surface, each of these variables can make a huge difference on race day...</p>
+          <h1>VISION AND MISSION</h1>
+          <p>Our vision is to empower individuals worldwide to achieve their health and fitness goals through accessible, personalized, and innovative solutions. We strive to revolutionize the way people approach wellness by providing tailored fitness and nutrition plans that cater to their unique needs, ultimately fostering healthier and happier lifestyles.At FITTNISN & NUTRITION, our mission is to make personalized health and wellness guidance accessible to everyone, regardless of their background or resources. We are committed to leveraging cutting-edge technology to deliver comprehensive and user-centric fitness and nutrition solutions. Through continuous innovation and a dedication to excellence, we aim to inspire individuals to lead healthier lives and reach their full potential.</p>
         </div>
       </div>
       <div className="about-nav">
