@@ -1,0 +1,58 @@
+.equipment-selector {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .equipment-options {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  
+.equipment-item {
+    border: 2px solid transparent;
+    padding: 16px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-color: bisque;
+}
+
+.equipment-item:hover {
+    border-color: #007bff;
+    background-color: lightgray;
+
+}
+
+.equipment-item.selected {
+    border-color: #007bff;
+    background-color: #e7f0fe;
+}
+  
+  .equipment-item img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .equipment-item p {
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  .continue-btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-btn:hover {
+    background-color: #0056b3;
+  }
+  

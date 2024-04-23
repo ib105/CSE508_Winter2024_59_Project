@@ -1,0 +1,131 @@
+/* signup.css */
+.signup-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #121212; /* Assuming this is the background color you want */
+  }
+  
+  .signup-container {
+    padding: 40px;
+    width: 100%;
+    max-width: 450px; /* Increase width of form */
+  }
+  
+  .signup-form {
+    background: #333; /* Dark background for the form */
+    padding: 40px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.25);
+  }
+  
+  .form-title {
+    margin-bottom: 30px;
+    color: #fff;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .toggle-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  .toggle-btn.active {
+    color: #ff105f;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-input {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-bottom: 2px solid #ff105f; /* Color of the input bottom-border */
+    background-color: transparent;
+    color: #fff;
+  }
+  
+  .form-input::placeholder {
+    color: #ccc;
+  }
+  
+  .form-submit {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-image: linear-gradient(45deg, #ff105f, #ffad06);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  .form-footer {
+    margin-top: 20px;
+  }
+  
+  .form-link {
+    color: #ff105f;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .form-link:hover {
+    text-decoration: underline;
+  }
+  /* Additional or updated styles for signup.css */
+
+/* ... existing styles ... */
+
+.toggle-btn.active {
+    background-color: #ff105f; /* Active tab color */
+    border-radius: 20px;
+    color: white;
+  }
+  
+  /* Adjust the margin as needed */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  /* You may want to style the active form link differently */
+  .form-link.active {
+    font-weight: bold;
+    color: #ff105f;
+  }
+  
+  /* Make sure the form does not submit and refresh the page when toggling */
+  .toggle-buttons button {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    padding: 10px 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect for toggle buttons */
+  .toggle-buttons button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 20px;
+  }
+  

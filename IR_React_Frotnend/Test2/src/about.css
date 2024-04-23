@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000; /* A dark theme base */
+  color: #ffffff;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #222; /* Slightly lighter for contrast */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000; /* Ensure nav stays on top */
+}
+
+.nav-item {
+  position: relative; /* Needed for absolute positioning of content */
+}
+
+.nav-title {
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 4px;
+}
+
+.nav-title:hover {
+  background-color: #00adb5; /* An accent color */
+}
+
+.nav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  bottom: -100%; /* Adjust based on content size */
+  background-color: #333; /* A lighter shade for contrast */
+  color: #fff;
+  padding: 15px;
+  width: 200%; /* Wider than the .nav-item to accommodate more content */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  transform-origin: top;
+  transform: scale(0.9);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-item:hover .nav-content {
+  display: block;
+  transform: scale(1);
+}
+
+.about-main {
+  display: flex;
+  padding: 50px;
+  align-items: center; /* Center items vertically */
+  transition: background-color 0.3s ease;
+}
+
+.about-main:hover {
+  background-color: #111; /* Darken background on hover */
+}
+
+.about-image {
+  width: 50%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.about-text {
+  width: 50%;
+  padding-left: 50px;
+}
+
+.about-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #00adb5; /* Use the accent color for headings */
+  text-transform: uppercase;
+}
+
+.about-text p {
+  line-height: 1.6;
+  font-size: 1.1rem;
+  color: #ccc; /* Light grey for readable contrast */
+}
+
+@media (max-width: 768px) {
+  .about-main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .about-image, .about-text {
+    width: 100%;
+    padding-left: 0;
+    padding-bottom: 20px;
+  }
+
+  .nav-content {
+    width: 100%;
+    bottom: -150%; /* Adjust based on new width */
+  }
+}

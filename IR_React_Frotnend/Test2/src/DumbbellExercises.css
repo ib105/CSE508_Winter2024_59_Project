@@ -1,0 +1,41 @@
+.exercise-container {
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+.exercises-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.exercise-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.exercise-card h2 {
+    color: #333;
+}
+
+.exercise-card p {
+    margin: 10px 0;
+}
+
+.video-links a {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: #007BFF;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.video-links a:hover {
+    background-color: #0056b3;
+}
