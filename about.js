@@ -35,7 +35,7 @@ function About() {
         </div>
         <div className="nav-item">
           <div className="nav-title">US VS PERSONAL TRAINING</div>
-          <div className="nav-content">Comparing CTP with personal training.</div>
+          <div className="nav-content">Compared to traditional personal training, our platform offers unparalleled accessibility and convenience—at no cost. With detailed step-by-step guides and video demonstrations for each exercise, we provide all the tools you need to succeed without the necessity for in-person training. Whether you're at home or on the go, our comprehensive database of workouts and nutrition plans is always just a click away, giving you the freedom to train whenever and wherever you choose.</div>
         </div>
       </div>
     </div>
