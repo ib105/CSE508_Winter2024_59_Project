@@ -12,3 +12,6 @@ Steps to run it locally
 
 `npm install`
 
+4. Run the application.
+
+`npm start` 
