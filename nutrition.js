@@ -14,8 +14,8 @@ const Nutrition = () => {
   const dietPreferences = [
     { name: 'Vegan', image: '/vegan.jpg' },
     { name: 'Pescetarian', image: '/pescetarian.jpg' },
-    { name: 'Lacto-Vegetarian', image: '/lacto-vegetarian.jpg' },
-    { name: 'Non-Vegetarian', image: '/non-vegetarian.jpg' }
+    { name: 'Lacto', image: '/lacto-vegetarian.jpg' },
+    { name: 'Vegetarian', image: '/non-vegetarian.jpg' }
   ];
 
   const toggleRegion = (regionOption) => {
