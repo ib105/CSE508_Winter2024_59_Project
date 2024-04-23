@@ -23,18 +23,18 @@ function About() {
         </div>
         <div className="nav-item">
           <div className="nav-title">WHY WE'RE DIFFERENT</div>
-          <div className="nav-content">What makes us different.</div>
+          <div className="nav-content">Stand out with our service because it's completely free! We offer unparalleled access to a vast database of workouts and nutrition recipes, all available at just a few clicks. Our platform stands out by making personalized fitness and nutrition accessible to everyone, regardless of budget, giving you the tools you need to succeed in your health and fitness journey right at your fingertips.</div>
         </div>
         <div className="nav-item">
           <div className="nav-title">WHY USER SPECIFIC PLANS?</div>
-          <div className="nav-content">Benefits of race-specific plans.</div>
+          <div className="nav-content">User-specific plans are essential because everyone's fitness journey is unique. Our personalized plans are designed to match your specific fitness levels, available equipment, dietary needs, and goals. This tailored approach ensures that you receive the most effective and relevant guidance, maximizing your results and enhancing your overall health and wellness experience.</div>
         </div>
         <div className="nav-item">
-          <div className="nav-title">WHO'S BEHIND CTP?</div>
-          <div className="nav-content">The team behind CTP.</div>
+          <div className="nav-title">WHO'S BEHIND THIS?</div>
+          <div className="nav-content">Developed by Akshay, Ishwar, Malav, and Yaksh—a group passionate about making fitness and nutrition accessible for everyone.</div>
         </div>
         <div className="nav-item">
-          <div className="nav-title">CTP VS PERSONAL TRAINING</div>
+          <div className="nav-title">US VS PERSONAL TRAINING</div>
           <div className="nav-content">Comparing CTP with personal training.</div>
         </div>
       </div>
