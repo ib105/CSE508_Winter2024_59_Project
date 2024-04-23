@@ -18,8 +18,8 @@ function About() {
           <div className="nav-content">We develop personalized fitness and nutrition solutions, using cutting-edge technology to create customized workout and meal plans tailored to your equipment, fitness goals, and dietary preferences..</div>
         </div>
         <div className="nav-item">
-          <div className="nav-title">WHY SHOULD USE CTP?</div>
-          <div className="nav-content">Reasons to use CTP.</div>
+          <div className="nav-title">WHY SHOULD I USE THIS</div>
+          <div className="nav-content">Choose our platform for a truly personalized approach to fitness and nutrition. Our system uses advanced algorithms to tailor workouts and dietary recommendations specifically to your needs and available resources. This ensures that every exercise session and meal plan moves you closer to your health goals efficiently and effectively. With our integrated feedback mechanism, your fitness journey adapts and evolves based on your progress and preferences, keeping you motivated and on track.</div>
         </div>
         <div className="nav-item">
           <div className="nav-title">WHY WE'RE DIFFERENT</div>
