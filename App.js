@@ -68,17 +68,17 @@ function Benefits() {
         <div className="benefit-item">
           <div className="benefit-icon">👩</div>
           <h3>Female Fat Loss</h3>
-          <p>Looking for A Female Fat Burning Program That Achieves Results? Try Our Female Fat Loss Plan</p>
+          <p>Looking for A Female Fat Burning Program That Achieves Results? Try Our Female Fat Loss Plan which gives personalized workout.</p>
         </div>
         <div className="benefit-item">
           <div className="benefit-icon">👨</div>
-          <h3>Fat Loss For Male</h3>
-          <p>Looking for A Male Fat Burning Program That Achieves Results? Try Our Male Fat Loss Plan</p>
+          <h3>Male Muscle Building</h3>
+          <p>Looking for A Male Muscle Building Program That Achieves Results? Try Our Male workout plan with nutrition requirements.</p>
         </div>
         <div className="benefit-item">
           <div className="benefit-icon">💪</div>
           <h3>12 Week Muscle Building</h3>
-          <p>Looking for A Man Fat Burning Program That Achieves Results? Try Our Man Fat Loss Plan</p>
+          <p>Program focused on helping individuals, particularly men, build muscle over a 12-week period.</p>
         </div>
       </div>
     </div>
