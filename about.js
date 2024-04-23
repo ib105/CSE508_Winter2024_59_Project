@@ -15,7 +15,7 @@ function About() {
       <div className="about-nav">
         <div className="nav-item">
           <div className="nav-title">WHAT WE DO</div>
-          <div className="nav-content">Description of what we do.</div>
+          <div className="nav-content">We develop personalized fitness and nutrition solutions, using cutting-edge technology to create customized workout and meal plans tailored to your equipment, fitness goals, and dietary preferences..</div>
         </div>
         <div className="nav-item">
           <div className="nav-title">WHY SHOULD USE CTP?</div>
